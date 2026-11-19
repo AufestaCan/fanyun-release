@@ -1,0 +1,112 @@
+FanYun Keyboard Privacy Policy
+
+Updated: October 2026
+Effective: October 2026
+
+This application ("the App") is developed and operated by Shenzhen Futian
+District Fanyun Information Technology Studio ("we"). The App follows an
+"offline-first" design: everything you type is processed locally on your
+device and never leaves it.
+
+Please read this policy carefully before use. Tapping "Agree" means you
+understand and accept the policy in full; if you do not agree, tap
+"Decline & exit" and the App will not make any network requests.
+
+1. How we collect and use information
+
+1.1 Typed content
+    Everything you type with the keyboard — letters, words, symbols and
+    the like — is processed only on your device, for candidate
+    computation and committing text. We never upload, store or analyse
+    anything you type.
+
+1.2 Data stored locally
+    The following data stays inside the App's private directory and is
+    never synced to any server:
+    - Usage-frequency learning data (for the local "more used, higher
+      ranked" candidate ordering)
+    - Your custom quick phrases
+    - Appearance, layout and sound settings
+    - Cached dictionary files, exchange-rate data and promotion
+      configuration
+
+1.3 Clipboard
+    The App reads the current system clipboard only when you actively
+    tap the keyboard's "paste" key, to insert that content. The App does
+    not record, store or upload clipboard history.
+
+1.4 Device information
+    In normal operation the App does not collect device identifiers,
+    model or system information.
+
+2. Network activity
+
+The App declares the network permission solely for the following
+"read-only download" behaviours. No network request is made without
+your consent, and your typed content is never uploaded at any time:
+
+2.1 Version and dictionary checks: the App requests a configuration
+    file from the update repository (gitee.com) to check for app and
+    dictionary updates. The request carries only three dimensions —
+    platform (android), build channel, and the system region code (e.g.
+    CN) — and no personal identifier.
+2.2 Dictionary updates: downloading updated dictionary data files
+    (pure data, no executable code).
+2.3 Promotional content: receiving self-operated promotion text or
+    image assets, always labelled "Ads" before display. They can be
+    turned off permanently under Settings → Appearance → Ads, after
+    which no related configuration is received.
+2.4 Exchange rates: only when you use the currency-conversion feature
+    on the keyboard and the local cache is older than 6 hours, the App
+    requests current rates from public rate sources (cdn.jsdelivr.net,
+    frankfurter.dev).
+2.5 Share image: when you open "Recommend", the App downloads the
+    referral QR image.
+
+3. Sharing, transfer and disclosure
+
+The App embeds no third-party SDK, analytics or ad-tracking service,
+and does not share, transfer or publicly disclose your information to
+any third party.
+
+4. Data storage and deletion
+
+All of the App's data is stored locally on your device. You can delete
+all of it at any time via the system settings' "clear app data", or by
+uninstalling the App — this completely removes the local data
+(including learning data, quick phrases and all settings).
+
+5. Permissions
+
+- Internet access (INTERNET): for the read-only downloads listed in
+  section 2.
+- Network state (ACCESS_NETWORK_STATE): to check connectivity.
+- High-rate sensor sampling (HIGH_SAMPLING_RATE_SENSORS): a leftover
+  declaration from a discontinued experiment. No feature calls it in
+  this version; it will be removed in a later release.
+
+6. Feedback (debug builds)
+
+Internal test builds offer an optional feedback entry. After your
+explicit confirmation in the dialog, it uploads a screenshot of the
+keyboard area, a redacted action log (no typed text), and device
+model/OS/app version for troubleshooting. The screenshot captures the
+keyboard's own area only. Release builds do not include this feature.
+
+7. Minors
+
+The App does not actively collect any personal information and does
+not process information differently by age. Minors should use the App
+under guardian guidance.
+
+8. Changes to this policy
+
+This policy may be updated as features change; the latest version
+shown in the App prevails.
+
+9. Contact us
+
+Operator: Shenzhen Futian District Fanyun Information Technology
+Studio (sole proprietorship)
+Contact: the issue-feedback page of the App's release repository
+(gitee.com/aufesta/fanyun-release)
