@@ -1,8 +1,8 @@
 {
-  "versionCode": 12,
-  "versionName": "1.0.0",
-  "apkUrl": "https://github.com/AufestaCan/fanyun-release/releases/download/v1.0.0/fanyun-en-1.0.0-20261119-1028.apk",
-  "notes": "First English release: an offline fan-shaped keyboard. Palm-contact fan layout with a cyclic suggestion ring; letter order (A-Z or QWERTY) is in the ⌨ card; fully offline — no account, no tracking.",
+  "versionCode": 13,
+  "versionName": "1.0.1",
+  "apkUrl": "https://github.com/AufestaCan/fanyun-release/releases/download/v1.0.1/fanyun-en-1.0.1-20261125-2047.apk",
+  "notes": "Settings \u2192 About: a new Update button appears beside the version number when a newer build is available; 113 dictionary additions; suggestion-ring and card visual fixes.",
   "ad": {
     "enabled": false,
     "title": "Sponsored",
